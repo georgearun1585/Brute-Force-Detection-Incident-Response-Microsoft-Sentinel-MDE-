@@ -40,7 +40,8 @@ DeviceLogonEvents
   </code></pre>
 </details>
 
-<p><strong>📸 Screenshot:</strong> <code>./images/01-query-results.png</code></p>
+<p><strong>📸 <img width="1901" height="948" alt="image" src="https://github.com/user-attachments/assets/b5cbc695-5c43-4359-bc7c-e3a74623ebf4" />
+
 
 <h3>⚙️ Create the Rule</h3>
 <ul>
