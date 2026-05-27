@@ -105,9 +105,8 @@ DeviceLogonEvents
   </li>
 </ul>
 
-<img width="1739" height="293" alt="image" src="https://github.com/user-attachments/assets/5ed74e47-375d-4858-80e5-0fa01c9f0739" />
+<img width="771" height="387" alt="image" src="https://github.com/user-attachments/assets/1467d70c-1fea-40d4-b305-3ad6074267ce" />
 
-<img width="275" height="565" alt="image" src="https://github.com/user-attachments/assets/8cb450d6-9787-4f5b-9acb-f3ab4abf07d5" />
 
 <h3>✅ Check for Brute Force Success (Did Any IP Log In?)</h3>
 <details>
