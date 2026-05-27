@@ -158,7 +158,7 @@ DeviceLogonEvents
   <li>Closed the incident as <strong>True Positive</strong></li>
 </ul>
 
-<img width="503" height="511" alt="image" src="https://github.com/user-attachments/assets/b6f414dd-0430-4a18-a063-a72122c130e3" />
+<img width="387" height="716" alt="image" src="https://github.com/user-attachments/assets/50412b8d-2b23-4bf5-89af-c6cc774cc27d" />
 
 
 <hr />
