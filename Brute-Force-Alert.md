@@ -79,7 +79,7 @@ DeviceLogonEvents
   <li>Confirm the incident appears in: <strong>Sentinel → Threat Management → Incidents</strong></li>
 </ul>
 
-<img width="450" height="654" alt="image" src="https://github.com/user-attachments/assets/8f7ea561-370b-4355-a759-a9f627604eff" />
+<img width="1910" height="968" alt="image" src="https://github.com/user-attachments/assets/8c12b9a7-4a55-42d0-a595-28a4d8eca6d2" />
 
 
 <hr />
