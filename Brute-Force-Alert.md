@@ -28,12 +28,15 @@ the same <strong>Remote IP</strong> fails to log into the same <strong>Device</s
 <details>
   <summary><strong>🧩 KQL (Brute Force Attempt Detection)</strong></summary>
   <pre><code>
+//Design a Sentinel Scheduled Query Rule within Log Analytics that will discover when the same remote IP address has failed to log in to the same local 
+//host (Azure VM) 10 times or more within the last 5 hours
+
+
 DeviceLogonEvents
-| where DeviceName == "jinks-ir-scenes"
-| where ActionType == "LogonFailed" and Timestamp >= ago(24h)
-| summarize Attempts = count() by RemoteIP, AccountName, DeviceName, DeviceId, ReportId, Timestamp
-| where Attempts >= 5
-| order by Attempts
+| where ActionType == "LogonFailed" and  TimeGenerated > ago(5h)
+| summarize Eventcount = count() by RemoteIP, DeviceName, ActionType
+| where Eventcount >= 10
+| order by Eventcount
   </code></pre>
 </details>
 
