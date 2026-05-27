@@ -62,7 +62,7 @@ DeviceLogonEvents
   <li>MITRE mapping: used AI to map relevant techniques</li>
 </ul>
 
-<img width="2283" height="1155" alt="image" src="https://github.com/user-attachments/assets/7fa9cb67-79f2-43c7-a81f-600ef123637d" />
+<img width="1872" height="974" alt="image" src="https://github.com/user-attachments/assets/d5e15b80-1523-48ce-9ca4-5c9fd17b9f7b" />
 
 
 
