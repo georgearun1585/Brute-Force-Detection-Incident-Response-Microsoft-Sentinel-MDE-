@@ -112,14 +112,13 @@ DeviceLogonEvents
 <details>
   <summary><strong>🧩 KQL (Validate Successful Login From Suspect IP)</strong></summary>
   <pre><code>
-let TargetDevice = "jinks-ir-scenes"; // Replace with target VM
-let SuspectIP = "xxx.xxx.xxx.xxx";       // Replace with suspect IP
 DeviceLogonEvents
-| where ActionType == "LogonSuccess"
-| where DeviceName == TargetDevice and RemoteIP == SuspectIP
-| order by TimeGenerated desc
+| where DeviceName contains "arun"
+| where TimeGenerated > ago(7h)
+| order by TimeGenerated desc 
   </code></pre>
 </details>
+<img width="1073" height="716" alt="image" src="https://github.com/user-attachments/assets/58ecab00-8ec6-4583-a17b-fd6bc26aafe0" />
 
 <h3>🛡️ Containment, Eradication &amp; Recovery</h3>
 <ul>
